@@ -16,6 +16,7 @@
      puts "4 - Import entries from a CSV"
      puts "5 - view entry n"
      puts "6 - Exit"
+     puts "7 - Delete all entries"
      print "Enter your selection: "
  
      # #3
@@ -46,6 +47,10 @@
          puts "Good-bye!"
          # #8
          exit(0)
+        when 7
+          system "clear"
+          detonate
+          main_menu
        # #9
        else
          system "clear"

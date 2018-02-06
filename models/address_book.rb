@@ -44,6 +44,10 @@
      end
      end
      
+    def detonate
+       @entries = []
+    end
+     
     def binary_search(name)
            # #1
      lower = 0
