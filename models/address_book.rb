@@ -69,4 +69,21 @@
      return nil
      
     end
+    
+    def iterative_search(name)
+                 # #1
+     lower = 0
+     upper = entries.length - 1
+ 
+     # #2
+     while lower <= upper
+ 
+       # #4
+       if name == entries[lower]
+         return entries[lower]
+       elsif name != entries[lower]
+         lower += 1
+       end
+     end
+    end
    end
