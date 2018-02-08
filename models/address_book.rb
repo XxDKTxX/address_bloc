@@ -79,9 +79,9 @@
      while lower <= upper
  
        # #4
-       if name == entries[lower]
-         return entries[lower]
-       elsif name != entries[lower]
+       if name == entries[lower].name
+         return entries[lower].name
+       elsif name != entries[lower].name
          lower += 1
        end
      end
